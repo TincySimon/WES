@@ -1,4 +1,5 @@
-#generating bam and bai files from fastq files for all samples in the PNET category which were ran in L1 and L2
+#Preprocesing and generating bam and bai files from fastq files for PNET samples multiplexed onto two lanes
+#installed Anaconda/miniconda
 
 LANE = ["L1", "L2"]
 
