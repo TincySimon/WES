@@ -1,0 +1,11 @@
+Seq:
+    h_vmem: '30G'
+    h_rt: '10:00:00'
+    pe: 'smp 3'
+
+smallseq:
+    h_vmem: '30G'
+    h_rt: '10:00:00'
+    pe: 'smp 3'
+
+
