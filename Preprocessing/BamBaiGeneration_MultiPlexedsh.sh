@@ -1,3 +1,6 @@
+#!/bin/bash
+
+
 #Preprocesing and generating bam and bai files from fastq files for PNET samples multiplexed onto two lanes
 #installed Anaconda/miniconda
 
