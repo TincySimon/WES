@@ -1,3 +1,4 @@
+#!/bin/python3
 import pysam
 
 myvcf = pysam.VariantFile(snakemake.input[0], "r")
