@@ -1,3 +1,4 @@
+#!/bin/bash
 module load Java/1.8.0_92
 
 IN='/fast/projects/ngs_sers/2017_WES_Analysis/PNET/output/bam/RecalibratedBamNormal'
