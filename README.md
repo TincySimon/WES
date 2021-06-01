@@ -4,6 +4,7 @@ Steps:
 * Variant calling
 * Filterations
 * Annotation
+* CNV analysis
 
 Prepared in SnakeMake workflow management system
 
