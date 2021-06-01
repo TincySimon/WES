@@ -254,10 +254,6 @@ rule scatterTSC2FF:
 
            """
 
-
-
-
-
 rule scatterchr11geneCBS:
         input:
            CNR="Data/CNVkit/Result/{sample}.cnr",
@@ -322,19 +318,4 @@ rule scatterNVLFlasso:
 
            """
 
-
-
-
-
-
-#TSG101,SF1,WDR74,NVL
-
-
-
-
-
-
-#files
-#expand("Result/{sample}{type}.cnr", sample=SAMPLES, type=TYPE),
-#expand("Result/{sample}{type}.cns", sample=SAMPLES, type=TYPE),
 
