@@ -15,7 +15,7 @@ Files found under Preprocessing folder includes the shell script for preprocessi
 Files found under VariantCalling folder includes the shell script for somatic and germline calling from Strelka 
 
 3. Filterations and Annotation:
-Workflow for filteration and annotation of the mutations for identifying true pathogenic variants are found under Filteration and Annotation folder
+Workflow for filteration and annotation of the mutations for identifying true pathogenic variants are found under Filteration folder
 
 4. CNV Analysis
 CNV analysis using CNVKit and subsequent scatterplot representation of data
