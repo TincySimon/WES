@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #expand('output/Mutect2/{sample}P/{sample}P_{panel}.vcf.gz', sample=SAMPLES, panel=PANEL)
 SAMPLES = ["PNET19P","PNET21P","PNET23P","PNET24P","PNET9P","PNET10P","PNET20P","PNET22P","PNET8P"]
 #python modules
