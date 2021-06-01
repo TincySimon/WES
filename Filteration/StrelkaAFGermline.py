@@ -1,3 +1,5 @@
+#!/bin/python3
+
 #addition of AF onto VCF file for strelka data 
 import pysam
 
