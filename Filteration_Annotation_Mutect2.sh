@@ -1,3 +1,5 @@
+#Mutect2_OneByTwo
+
 SAMPLES = ["PNET19P","PNET21P","PNET23P","PNET24P","PNET9P","PNET10P","PNET20P","PNET22P","PNET8P"]
 rule all:
 	input:
