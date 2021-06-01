@@ -1,3 +1,4 @@
+#addition of AF onto VCF file for strelka data 
 import pysam
 
 myvcf = pysam.VariantFile(snakemake.input[0], "r")
