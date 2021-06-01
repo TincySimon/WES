@@ -1,3 +1,5 @@
+#!/bin/bash
+
 SAMPLES = ["PNET10P", "PNET19P", "PNET8P", "PNET20P", "PNET21P", "PNET22P", "PNET23P", "PNET24P"]
 
 rule all:
