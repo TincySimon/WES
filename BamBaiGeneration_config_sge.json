@@ -1,0 +1,49 @@
+BWA_Align:
+    h_vmem: '20G'
+    h_rt: '05:00:00'
+    pe: 'smp 12'
+
+MergeBam:
+    h_vmem: '60G'
+    h_rt: '01:00:00'
+    pe: 'smp 12'
+
+bam_sort:
+    h_vmem: '5G'
+    h_rt: '03:00:00'
+    pe: 'smp 12'
+
+ReadDuplicates:
+    h_vmem: '60G'
+    h_rt: '01:00:00'
+    pe: 'smp 1'
+
+bamindexInitial:
+    h_vmem: '150M'
+    h_rt: '01:00:00'
+    pe: 'smp 12'
+
+bamindexInitial_dedup:
+    h_vmem: '150M'
+    h_rt: '01:00:00'
+    pe: 'smp 12'
+
+indelReAlignerTargetCreator:
+    h_vmem: '50G'
+    h_rt: '02:00:00'
+    pe: 'smp 6'
+
+indelReAligner:
+    h_vmem: '50G'
+    h_rt: '02:00:00'
+    pe: 'smp 6'
+
+BQSR:
+    h_vmem: '50G'
+    h_rt: '04:00:00'
+    pe: 'smp 6'
+
+RecalibratedBam:
+    h_vmem: '50G'
+    h_rt: '06:00:00'
+    pe: 'smp 6'
